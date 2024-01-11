@@ -1,4 +1,25 @@
+# Elasticsearch, Kibana, and Logstash Docker Configuration
+
+This repository contains a Docker Compose setup for running Elasticsearch, Kibana, and Logstash, complete with all necessary configuration files. It's designed for easy customization and deployment, suitable for various use cases including data analysis, monitoring, and log processing.
+
+## Contents
+
+- `.env`: Environment variables for setting up the Docker Compose configuration.
+- `docker-compose.yml`: Docker Compose file to set up Elasticsearch, Kibana, and Logstash services.
+- `config/`: Directory containing configuration files for all services.
+  - `logstash.conf`: Configuration file for Logstash data processing.
+  - `logstash.yml`: Additional settings for Logstash.
+- `certs/`: Directory for storing generated SSL certificates.
+
 ## Quick Start
+
+1. **Clone the Repository**
+
+   Clone this repository to your local machine to get started.
+
+   ```bash
+   git clone [Your Repository URL]
+   ```
 
 2. **Set Environment Variables**
 
