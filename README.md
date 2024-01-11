@@ -18,7 +18,7 @@ This repository contains a Docker Compose setup for running Elasticsearch, Kiban
    Clone this repository to your local machine to get started.
 
    ```bash
-   git clone [Your Repository URL]
+   git clone https://github.com/Anybody2007/single-node-elk-stack.git
    ```
 
 2. **Set Environment Variables**
