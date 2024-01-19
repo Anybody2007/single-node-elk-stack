@@ -45,9 +45,9 @@ This repository contains a Docker Compose setup for running Elasticsearch, Kiban
 
 The `docker-compose.yml` file outlines the setup for Elasticsearch, Kibana, and Logstash:
 
-- **Volumes:** Designated for storing certificates and service data.
-- **Networks:** Establishes a default network named `elastic`.
-- **Services:** Includes `setup` for initial configuration and individual services for `es01` (Elasticsearch), `kibana`, and `logstash`.
+- **Volumes:** Designated for storing certificates and service data
+- **Networks:** Establishes a default network named `elastic`
+- **Services:** Includes `setup` for initial configuration and individual services for `es01` (Elasticsearch), `kibana`, and `logstash`
 
 ### Elasticsearch Configuration (`es01`)
 
